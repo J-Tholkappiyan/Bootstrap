@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Registration Form</title>
+</head>
+<body>
+    <div class="container mt-5 p-2 d-flex justify-content-center">
+        <div class="card w-50 shadow-lg row">
+        <div class="card-header text-center">
+            <h2 class="text-primary">Student Registration</h2>
+        </div>
+            <div class="card-body p-5 ">
+                <form class="row">
+                    <div  class="mt-3 col-lg-12 col-md-4 col-sm-12">
+                        <label id="namelbl" for="Nametxt" class="form-label">Student Name</label>
+                        <input type="text" id="Nametxt" name="Nametxt" placeholder="Student Name" class="form-control">
+                    </div>
+                    <div  class="mt-3 col-lg-12 col-md-4 col-sm-12">
+                        <label id="fnamelbl" for="fnametxt" class="form-label">Father Name</label>
+                        <input type="text" id="fnametxt" name="fnametxt" placeholder="Father Name" class="form-control">
+                    </div>
+                    <div  class="mt-3 col-lg-12 col-md-4 col-sm-12">
+                        <label id="doblbl" for="dob" class="form-label">DOB</label>
+                        <input type="date" id="dob" name="dob" placeholder="Date of Birth" class="form-control">
+                    </div>
+                    <div  class="mt-3 col-lg-12 col-md-4 col-sm-12">
+                        <label id="mobileno" for="mobileno" class="form-label">Moblie Number</label>
+                        <input type="number"  id="mobileno" name="mobileno" placeholder="Mobile Number" class="form-control">
+                    </div>
+                    <div  class="mt-3 col-lg-12 col-md-4 col-sm-12">
+                        <label id="mailid" for="mailid" class="form-label">Mail ID:</label>
+                        <input type="email" id="mailidtxt" name="mailid" placeholder="mail Id" class="form-control">
+                    </div>
+                    <div class="mt-3 d-lg-flex justify-content-end">
+                        <button type="submit" id="submitbtn" class="btn btn-outline-success btn btn-light">Submit</button>
+                    </div>
+                    <div class="mt-3 d-lg-flex justify-content-end">
+                        <button type="reset" id="cancelbtn" class="btn btn-outline-danger btn btn-light">Clear</button>
+                    </div>
+                </form>
+            </div>
+            <h3 class="card-footer h5">Designed by <span class="h1 text-primary text-wrap">Tholkappiyan J</span></h3>
+        </div>
+    </div>    
+</body>
+</html>
